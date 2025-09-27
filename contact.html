@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Stunning 3D Landing Page Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pages.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Floating particles background -->
+        <div class="particles-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <!-- Animated background gradient -->
+        <div class="gradient-bg"></div>
+
+        <!-- 3D rotating shapes -->
+        <div class="shapes-container">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+
+        <!-- Main content -->
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <span class="logo-text">NEXUS</span>
+                        <div class="logo-glow"></div>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-content page-content">
+            <!-- Page Hero -->
+            <section class="page-hero">
+                <div class="page-hero-content">
+                    <h1 class="page-title">
+                        <span class="title-line">GET IN</span>
+                        <span class="title-line title-highlight">TOUCH</span>
+                    </h1>
+                    <p class="page-subtitle">Ready to bring your vision to life? Let's start the conversation</p>
+                </div>
+
+                <!-- 3D Contact Visualization -->
+                <div class="contact-viz-container">
+                    <div class="contact-hologram">
+                        <div class="hologram-ring ring-1"></div>
+                        <div class="hologram-ring ring-2"></div>
+                        <div class="hologram-ring ring-3"></div>
+                        <div class="hologram-center">
+                            <div class="center-icon">📞</div>
+                        </div>
+                        <div class="hologram-particles">
+                            <div class="holo-particle"></div>
+                            <div class="holo-particle"></div>
+                            <div class="holo-particle"></div>
+                            <div class="holo-particle"></div>
+                            <div class="holo-particle"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section class="contact-form-section">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2 class="section-title">Let's Create Something Amazing</h2>
+                        <p class="contact-description">
+                            Whether you have a specific project in mind or just want to explore possibilities,
+                            we're here to help transform your ideas into extraordinary digital experiences.
+                        </p>
+
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">📧</div>
+                                <div class="method-content">
+                                    <h4>Email Us</h4>
+                                    <p>hello@nexusdesign.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">📱</div>
+                                <div class="method-content">
+                                    <h4>Call Us</h4>
+                                    <p>+1 (555) 123-4567</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">📍</div>
+                                <div class="method-content">
+                                    <h4>Visit Us</h4>
+                                    <p>123 Innovation Street<br>Tech City, TC 12345</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-method">
+                                <div class="method-icon">🕒</div>
+                                <div class="method-content">
+                                    <h4>Office Hours</h4>
+                                    <p>Mon-Fri: 9AM-6PM PST</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required>
+                                <div class="input-glow"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-input" required>
+                                <div class="input-glow"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company" class="form-label">Company (Optional)</label>
+                                <input type="text" id="company" name="company" class="form-input">
+                                <div class="input-glow"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service" class="form-label">Service Interest</label>
+                                <select id="service" name="service" class="form-select" required>
+                                    <option value="">Select a service</option>
+                                    <option value="web-design">Web Design</option>
+                                    <option value="3d-development">3D Development</option>
+                                    <option value="animation">Motion Graphics</option>
+                                    <option value="app-development">App Development</option>
+                                    <option value="branding">Digital Branding</option>
+                                    <option value="consulting">Digital Consulting</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div class="input-glow"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget" class="form-label">Project Budget</label>
+                                <select id="budget" name="budget" class="form-select">
+                                    <option value="">Select budget range</option>
+                                    <option value="under-5k">Under $5,000</option>
+                                    <option value="5k-15k">$5,000 - $15,000</option>
+                                    <option value="15k-50k">$15,000 - $50,000</option>
+                                    <option value="50k-plus">$50,000+</option>
+                                    <option value="discuss">Let's discuss</option>
+                                </select>
+                                <div class="input-glow"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="timeline" class="form-label">Project Timeline</label>
+                                <select id="timeline" name="timeline" class="form-select">
+                                    <option value="">Select timeline</option>
+                                    <option value="asap">ASAP</option>
+                                    <option value="1-month">Within 1 month</option>
+                                    <option value="3-months">Within 3 months</option>
+                                    <option value="6-months">Within 6 months</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                                <div class="input-glow"></div>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="message" class="form-label">Project Details</label>
+                                <textarea id="message" name="message" rows="6" class="form-textarea" placeholder="Tell us about your project, goals, and any specific requirements..." required></textarea>
+                                <div class="input-glow"></div>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <button type="submit" class="submit-btn">
+                                    <span class="button-text">Send Message</span>
+                                    <div class="button-glow"></div>
+                                    <div class="submit-loader">
+                                        <div class="loader-spinner"></div>
+                                    </div>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="faq-section">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>How long does a typical project take?</h4>
+                            <div class="faq-toggle">+</div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Project timelines vary based on complexity and scope. Simple websites typically take 2-4 weeks, while complex 3D applications can take 3-6 months. We provide detailed timelines during our initial consultation.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Do you work with startups?</h4>
+                            <div class="faq-toggle">+</div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! We love working with startups and understand their unique challenges. We offer flexible pricing and can work within various budget constraints while delivering exceptional quality.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>What's included in your web design service?</h4>
+                            <div class="faq-toggle">+</div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our web design service includes UI/UX design, responsive layouts, interactive prototypes, brand integration, performance optimization, and 3 months of post-launch support.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Can you help with existing projects?</h4>
+                            <div class="faq-toggle">+</div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! We can audit, optimize, and enhance existing projects. Whether you need performance improvements, new features, or a complete redesign, we're here to help.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h4>Do you provide ongoing maintenance?</h4>
+                            <div class="faq-toggle">+</div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We offer comprehensive maintenance packages including updates, security monitoring, performance optimization, and feature enhancements to keep your project running smoothly.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Social Proof Section -->
+            <section class="social-proof-section">
+                <h2 class="section-title">Join Our Community</h2>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <div class="social-icon">📘</div>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon">🐦</div>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon">📸</div>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon">💼</div>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <div class="social-icon">📱</div>
+                        <span>Dribbble</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="pages.js"></script>
+</body>
+</html>
