@@ -275,11 +275,20 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(sparkStyle);
 
-    // Smooth scroll for navigation
+    // Navigation handling - only prevent default for hash links
     document.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', function(e) {
-            e.preventDefault();
-            // Add smooth scroll behavior if needed
+            const href = this.getAttribute('href');
+
+            // Only prevent default for hash links (smooth scroll within page)
+            if (href && href.startsWith('#')) {
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+            // Let other links (like .html files) navigate normally
         });
     });
 
